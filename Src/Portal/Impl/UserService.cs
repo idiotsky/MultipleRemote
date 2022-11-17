@@ -9,7 +9,7 @@ namespace Impl
             return new List<User>
                    {
                        new() { FirstName = "Tom", LastName = "Blue" },
-                       new() { FirstName = "Jerry", LastName = "Green" }
+                       new() { FirstName = "Jerry", LastName = "Gray" }
                    };
         }
     }
