@@ -4,6 +4,12 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <VersionPrefix Condition=" '$(VersionPrefix)' == '' ">2.0.0</VersionPrefix>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Impl\Impl.csproj" />
+    <ProjectReference Include="..\Interface\Interface.csproj" />
+  </ItemGroup>
 
 </Project>
